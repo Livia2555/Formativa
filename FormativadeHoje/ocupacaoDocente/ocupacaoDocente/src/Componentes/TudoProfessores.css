@@ -1,0 +1,32 @@
+.professores{
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+   
+}
+
+li{
+    justify-content: center;
+    padding-left: 20px;
+
+}
+.titulo{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.criar{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.criarform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10%;
+    height: 40%;
+}
+

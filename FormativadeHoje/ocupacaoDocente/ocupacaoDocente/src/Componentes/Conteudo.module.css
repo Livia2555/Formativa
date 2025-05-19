@@ -1,0 +1,12 @@
+.conteiner{
+    display: flex;
+    align-items: start;
+    height: 78vh;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #5b6aa5;
+}
+
+
+
