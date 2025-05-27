@@ -1,0 +1,103 @@
+.titulo {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .acoes {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+  }
+  
+  .novo {
+    background-color: #28a745;
+    margin-right: 25%;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .criarform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .salvar {
+    background-color: #0d6efd;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  .editar {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apagar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container-tabela {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 5%;
+  }
+  
+  .tabela-professores {
+    width: 80%;
+    max-width: 900px;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabela-professores th,
+  .tabela-professores td {
+    padding: 10px 12px;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 150px;
+  }
+  
+  .tabela-professores thead {
+    background-color: #f0e6ff;
+    color: #4b0082;
+    font-weight: bold;
+  }
+  
+  .tabela-professores tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabela-professores tbody tr:hover {
+    background-color: #f1f1f1;
+  }

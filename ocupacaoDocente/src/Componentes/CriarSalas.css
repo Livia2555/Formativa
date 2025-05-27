@@ -1,0 +1,33 @@
+.salas{
+    width: 50%;
+    margin-bottom: 10%;
+    margin-top: 05%;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela-salas{
+    margin-left: 32%;
+    width: 700px;
+    height: 500px;
+    background-color: #ffffffe8;
+    padding: 10px;
+    border-radius: 30px;
+    border: 9px  rgba(11, 1, 27, 0.1);
+    margin-bottom:52px ;
+}
+.btn-criar{
+    margin-left: 67%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 05px;
+    border: 3px solid rgba(12, 0, 56, 0.1);
+}
+.tabela1{
+    padding-left: 25%;
+}
+
+

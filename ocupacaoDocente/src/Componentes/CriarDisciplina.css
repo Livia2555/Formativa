@@ -1,0 +1,174 @@
+/* Container geral */
+.container-disciplinas {
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding-bottom: 153px;
+}
+
+/* Botão para abrir o modal */
+.botao-criar {
+  margin-left: 78%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-criar:hover {
+  background-color: #0056b3;
+}
+
+/* Modal overlay: fundo escuro semi-transparente */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal (caixa do formulário) - tamanho médio */
+.modal {
+  background: white;
+  width: 480px;
+  max-width: 90%;
+  border-radius: 8px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* Título do modal */
+.modal h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Formulário */
+.formulario input,
+.formulario select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.formulario input:focus,
+.formulario select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Container dos botões do formulário */
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Botões dentro do modal */
+.botoes button {
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.botoes button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+.botoes button[type="submit"]:hover {
+  background-color: #1e7e34;
+}
+
+.botoes button[type="button"] {
+  background-color: #dc3545;
+  color: white;
+}
+
+.botoes button[type="button"]:hover {
+  background-color: #a71d2a;
+}
+
+.tabelaDisciplinas {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-size: 14px;
+  table-layout: fixed; /* para truncar colunas */
+}
+
+.tabelaDisciplinas th,
+.tabelaDisciplinas td {
+  padding: 10px 12px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+.tabelaDisciplinas thead {
+  background-color: #f0e6ff;
+  color: #4b0082;
+  font-weight: bold;
+}
+
+.tabelaDisciplinas tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabelaDisciplinas tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Colunas com larguras específicas para compactar */
+.tabelaDisciplinas td:nth-child(1) { max-width: 40px; } /* # */
+.tabelaDisciplinas td:nth-child(4) { max-width: 90px; } /* Carga Horária */
+.tabelaDisciplinas td:nth-child(7) { max-width: 90px; } /* Ações */
+
+/* Botões dentro da tabela */
+.btnEditarDisciplina,
+.btnExcluirDisciplina {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 3px 6px;
+  margin-right: 5px;
+  transition: color 0.2s ease;
+}
+
+.btnEditarDisciplina:hover {
+  color: #0d6efd;
+}
+
+.btnExcluirDisciplina:hover {
+  color: #dc3545;
+}

@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(23, 0, 61);
+}
+
+.barra {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(23, 0, 61);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li a.active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
